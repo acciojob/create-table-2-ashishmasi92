@@ -1,8 +1,8 @@
 let table = document.getElementById("myTable")
 
 function createTable() {
-    let numberOfRows = prompt("Enter number of rows")
- let numberOfColumn = prompt("Enter number of columns")
+    let numberOfRows = prompt("Input number of rows")
+ let numberOfColumn = prompt("Input number of columns")
 	
 	for(let i=0;i<=Number(numberOfRows)-1;i++){
 		let tr = document.createElement("tr")
